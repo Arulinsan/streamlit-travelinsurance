@@ -228,7 +228,7 @@ df.head()
 
 Ubah isi AnnualIncome yang sudah di ubah itu menjadi integer lagi
 ``` Python
-df["AnnualIncome"].replace(['Biaya Rendah','Biaya Sedang', 'Biaya Tinggi'],[1,2,3],inplace=True)
+df["AnnualIncome"].replace(['Pendapatan Rendah', 'Pendapatan Sedang', 'Pendapatan Tinggi'],[1,2,3],inplace=True)
 df["AnnualIncome"] = df["AnnualIncome"].astype('int64')
 ```
 
