@@ -57,7 +57,7 @@ Mengekstrak dataset
 !ls travel-insurance-prediction-data
 ```
 
-### Mengimport library
+## Mengimport library
 
 ``` Python
 import matplotlib.pyplot as plt
@@ -72,7 +72,7 @@ from sklearn import tree
 from sklearn.tree import plot_tree
 ```
 
-### Data Discovery
+## Data Discovery
 Membaca data csv
 ``` Python
 df = pd.read_csv ("travel-insurance-prediction-data/TravelInsurancePrediction.csv")
@@ -116,7 +116,7 @@ df.describe()
 - EverTravelledAbroad : Yaitu Apakah Pelanggan Pernah Bepergian ke Luar Negeri? (Dtype : Object) [Contoh : Yes, No]
 - TravelInsurance : Yaitu Apakah Pelanggan tersebut Membeli asuransi perjalanan atau tidak(Dtype :  int64) [Contoh : Yes, No]
 
-### EDA
+## EDA
 
 Melihat Persentase Pelanggan yang Membeli Asuransi Perjalanan dan tidak membeli.
 ``` Python
@@ -180,7 +180,7 @@ figure.show()
 ```
 ![image1](SS/eda5.png)
 
-### Data Preprocessing
+## Data Preprocessing
 
 Sebelum data di modeling kita lakukan proses data agar data tersebut lebih matang untuk di pakai.
 
@@ -248,7 +248,7 @@ df.replace({'EverTravelledAbroad' : {"Yes" : 1}}, inplace = True)
 df.replace({'EverTravelledAbroad' : {"No" : 0}}, inplace = True)
 ```
 
-### Modeling
+## Modeling
 
 Lakukan Train Testing data dengan test size nya 20% dan random state yang di ambil adalah 40
 
@@ -301,7 +301,7 @@ _ = tree.plot_tree(model, feature_names= ind_col,
 
 Secara singkatnya pada pohon keputusan yang di hasilkan, yang menjadi dominan orang akan membeli paket asuransi perjalanan adalah orang dengan pendapatan nya =>2.5 atau Pendapatan tahunannya tinggi. Serta Orang yang belum pernah melakukan penerbangan dan berpergian keluar negeri.
 
-### Save Model (CSV)
+## Save Model (CSV)
 
 Lakukan save model ke CSV setelah data di processing
 
