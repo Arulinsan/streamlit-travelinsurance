@@ -309,6 +309,6 @@ df.to_csv('DTree_TravelInsurance.csv',index=False)
 
 ### Deployment
 
-### [*-STREAMLIT LINK SIMULASI-*](https://www.kaggle.com/datasets/tejashvi14/travel-insurance-prediction-data/data)
+### [*-STREAMLIT LINK SIMULASI-*](https://app-travelinsurance-arul.streamlit.app)
 ![image1](SS/streamlit.png)
 
