@@ -299,7 +299,7 @@ _ = tree.plot_tree(model, feature_names= ind_col,
 
 ![image1](SS/tree.png)
 
-Secara singkatnya pada pohon keputusan yang di hasilkan, yang menjadi dominan orang akan membeli paket asuransi perjalanan adalah orang dengan pendapatan nya =>2.5 atau Pendapatan tahunannya tinggi. Serta Orang yang belum pernah melakukan penerbangan dan berpergian keluar negeri.
+Secara singkatnya pada pohon keputusan yang di hasilkan, yang menjadi dominan orang akan membeli paket asuransi perjalanan adalah orang dengan pendapatan nya =>2.5 atau Pendapatan tahunannya tinggi.
 
 ## Save Model (CSV)
 
