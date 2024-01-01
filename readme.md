@@ -286,7 +286,7 @@ print(f"Classification Report : \n {classification_report(y_test, dtc.predict(x_
 
 Maka Hasil yang di keluarkan adalah akurasi yang di harapkan yaitu > 0.70 atau 70% yang dimana akurasi pada dataset ini sangat baik untuk lakukan prediksi
 
-### Visualisasi hasil algoritma
+## Visualisasi hasil algoritma
 Melihat visualisasi pohon keputusannya
 
 ``` Python
