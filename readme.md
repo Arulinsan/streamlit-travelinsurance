@@ -27,7 +27,7 @@ Tujuan dari pernyataan masalah :
 
 Dataset di ambil dari kaggle :
 
-#### [*Travel Insurance Prediction Data*](https://www.kaggle.com/datasets/tejashvi14/travel-insurance-prediction-data/data)
+### [*Travel Insurance Prediction Data*](https://www.kaggle.com/datasets/tejashvi14/travel-insurance-prediction-data/data)
 
 #### Mengimport dataset dari kaggle :
 
@@ -309,6 +309,6 @@ df.to_csv('DTree_TravelInsurance.csv',index=False)
 
 ### Deployment
 
-#### [*-STREAMLIT LINK SIMULASI-*](https://www.kaggle.com/datasets/tejashvi14/travel-insurance-prediction-data/data)
+### [*-STREAMLIT LINK SIMULASI-*](https://www.kaggle.com/datasets/tejashvi14/travel-insurance-prediction-data/data)
 ![image1](SS/streamlit.png)
 
